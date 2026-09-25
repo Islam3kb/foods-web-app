@@ -82,7 +82,9 @@ body {
 /* ############### showcase styling #############3 */
 .showcase-area {
   height: 50vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("./IMG/header.jpg");
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("./IMG/header.jpg");
   background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -112,7 +114,7 @@ body {
   width: 500px;
   height: 400px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
   transform: translatex(-150%);
   animation: text-animation 2s ease-in-out forwards;
@@ -329,42 +331,42 @@ body {
   color: #444;
   margin-bottom: 1rem;
 }
-.form-container button{
-      padding: 10px;
-    background: #5784f5;
-    color: #fff;
-    font-size: 10px;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    cursor: pointer;
+.form-container button {
+  padding: 10px;
+  background: #5784f5;
+  color: #fff;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .copy-text button:before {
-content: "Copied";
-position: absolute;
-top: -90%;
-right: 0px;
-background: #5c81dc;
-padding: 8px 10px;
-border-radius: 20px;
-font-size: 15px;
-display: none;
+  content: "Copied";
+  position: absolute;
+  top: -90%;
+  right: 0px;
+  background: #5c81dc;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  display: none;
 }
-.copy-text button:after{
-    content: "";
-    position: absolute;
-    top: -20px;
-    right: 25px;
-    width: 10px;
-    height: 10px;
-    background: #5c81dc;
-    transform: rotate(45deg);
-    display: none;
+.copy-text button:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  background: #5c81dc;
+  transform: rotate(45deg);
+  display: none;
 }
 .copy-text.active button:before,
 .copy-text.active button:after {
-    display: block;
+  display: block;
 }
 
 .form-container a {
@@ -505,6 +507,7 @@ display: none;
     line-height: normal;
     line-height: 25px;
   }
+
   .food-container {
     flex-direction: column;
     align-items: stretch;
@@ -581,4 +584,3 @@ display: none;
     margin: 3rem auto;
   }
 }
-
